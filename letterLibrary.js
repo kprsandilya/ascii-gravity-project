@@ -37,8 +37,7 @@ document.getElementById("AnimateButton").addEventListener("click", function() {
     window.requestAnimationFrame(draw);
 });
 document.getElementById("StopButton").addEventListener("click", function() {
-    location.reload();
-    colorScheme(backgroundColor, textColor);
+    //
 });
 document.getElementById("DarkButton").addEventListener("click", function() {
     backgroundColor = document.getElementById("ColorInput").value;
